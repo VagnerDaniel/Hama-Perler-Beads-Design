@@ -27,6 +27,8 @@ O **Hama Beads Designer** é uma ferramenta web poderosa e intuitiva para criar 
 *   **Substituição Inteligente**: Troque todas as ocorrências de uma cor no projeto por outra.
 *   **Importação/Exportação**: Salve suas paletas personalizadas em arquivos `.json`.
 
+![Gestão de Cores Screenshot](screenshot2.png)
+
 ### 🖼️ Recursos Avançados
 *   **Imagem → Beads**: Converta fotos e imagens em padrões de beads automaticamente com algoritmos de dither e quantização.
 *   **Exportação PNG**: Gera uma imagem do seu projeto com fundo transparente e uma lista detalhada de materiais (quantas beads de cada cor você vai precisar).
