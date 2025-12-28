@@ -1199,7 +1199,7 @@
                             <circle cx="12" cy="12" r="10"></circle>
                         </svg>
                     </button>
-                    <button class="tool-button" data-tool="polygon" title="Polígono (Polygon Tool) [Enter]">
+                    <button class="tool-button" data-tool="polygon" title="Polígono (Polygon Tool) [P]">
                         <svg viewBox="0 0 24 24">
                             <path d="M12 2 2 12l10 10 10-10Z"></path>
                         </svg>
@@ -1502,6 +1502,7 @@
                         <li><span class="label">Borracha</span> <span class="kbd">E</span></li>
                         <li><span class="label">Balde de Tinta</span> <span class="kbd">F</span></li>
                         <li><span class="label">Conta-gotas</span> <span class="kbd">I</span></li>
+                        <li><span class="label">Polígono</span> <span class="kbd">P</span></li>
                         <li><span class="label">Seleção Retangular</span> <span class="kbd">M</span></li>
                         <li><span class="label">Seleção Livre (Laço)</span> <span class="kbd">L</span></li>
                         <li>
@@ -4759,6 +4760,13 @@
                 if (e.key.toLowerCase() === "z" && e.ctrlKey) { e.preventDefault(); undo(); }
                 if (e.key.toLowerCase() === "y" && e.ctrlKey) { e.preventDefault(); redo(); }
                 if (e.key === "Z" && e.ctrlKey && e.shiftKey) { e.preventDefault(); redo(); }
+
+                if (!e.ctrlKey && !e.altKey && !e.metaKey) {
+                    if (e.key.toLowerCase() === "p") {
+                        const btn = Array.from(el.toolButtons).find(b => b.getAttribute("data-tool") === "polygon");
+                        if (btn) btn.click();
+                    }
+                }
 
                 if (e.key === "Escape") {
                     if (state.selection.active) { commitSelection(); renderBoard(); }
