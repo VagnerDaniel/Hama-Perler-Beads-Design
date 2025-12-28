@@ -1,8 +1,8 @@
-# Hama Beads Designer 🎨
+# Hama Perler Beads Designer 🎨
 
-O **Hama Beads Designer** é uma ferramenta web poderosa e intuitiva para criar padrões de Hama Beads (perler beads). Desenvolvido como um arquivo HTML único, ele funciona totalmente offline e oferece um conjunto completo de ferramentas para artistas de pixel art e entusiastas de beads.
+O **Hama Perler Beads Designer** é uma ferramenta web poderosa e intuitiva para criar padrões de Hama Beads (perler beads). Desenvolvido como um arquivo HTML único, ele funciona totalmente offline e oferece um conjunto completo de ferramentas para artistas de pixel art e entusiastas de beads.
 
-![Hama Beads Designer Screenshot](screenshot.png)
+![Hama Perler Beads Designer Screenshot](screenshot.png)
 
 ## ✨ Principais Funcionalidades
 
