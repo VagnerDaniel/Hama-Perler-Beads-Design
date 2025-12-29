@@ -1,6 +1,6 @@
 # Hama Perler Beads Designer 🎨
 
-Acesse o link: <a href="https://vagnerdaniel.github.io/Hama-Perler-Beads-Design/Hama_Beads_Designer.html" target="_blank" rel="noopener noreferrer">
+Acesse o link: <a href="https://vagnerdaniel.github.io/Hama-Perler-Beads-Design/Hama_Beads_Designer.html" target="_blank">
 https://vagnerdaniel.github.io/Hama-Perler-Beads-Design/Hama_Beads_Designer.html
 </a>
 
